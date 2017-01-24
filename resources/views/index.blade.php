@@ -2,8 +2,6 @@
 <html lang="en">
   <head>
     @include('includes.head')
-    <!-- Bootstrap -->
-    {{ Html::style('css/index.css') }}
   </head>
   <body>
 	<header>

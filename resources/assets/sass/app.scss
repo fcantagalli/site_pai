@@ -1,9 +1,39 @@
 
 // Fonts
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,600);
 
 // Variables
-@import "variables";
+@import 'variables';
 
 // Bootstrap
-@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import 'node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+.footer-widget {
+  color: $widget-icon-color;
+  display: inline-block;
+  font-size: 24px;
+}
+
+.widget-icon {
+  vertical-align: text-top;
+}
+
+.widget-text {
+  vertical-align: top;
+  margin-top: 5px;
+  color: #ffffff;
+  font-size:18px;
+  font-family: 'Roboto';
+}
+
+.widget-text > br {
+  line-height: 150%;
+}
+
+.widget-text > a {
+  color: #ffffff;
+}
+
+.widget-text > a:hover {
+  color: #48ceec;
+}

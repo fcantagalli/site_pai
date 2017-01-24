@@ -14,27 +14,28 @@ require('laravel-elixir-vue-2');
  */
 
 elixir((mix) => {
-      mix.sass('app.scss')
-        .webpack('app.js');
+    mix.sass(
+      ['app.scss',
+      'style.scss'],
+      'public/css/app.css');
+
+     mix.webpack('app.js');
 
      mix.styles([
          'animate.css',
          'bootstrap.min.css',
          'font-awesome.min.css',
          'prettyPhoto.css',
-         'style.css',
-         'my-custom.css'
      ], 'public/css/index.css');
 
-    //  mix.styles([
-    //      'animate.min.css',
-    //      'bootstrap-theme.min.css',
-    //      'bootstrap.min.css',
-    //      'font-awsome.min.css'
-    //  ], 'public/css/main.min.css');
-     //
-    //  mix.styles([
-    //      'prettyPhoto.css',
-    //      'style.css',
-    //  ], 'public/css/theme.css');
+     mix.styles([
+         'animate.min.css',
+         'bootstrap-theme.min.css',
+         'bootstrap.min.css',
+         'font-awsome.min.css'
+     ], 'public/css/main.min.css');
+
+     mix.styles([
+         'prettyPhoto.css',
+     ], 'public/css/theme.css');
 });
