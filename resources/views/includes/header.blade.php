@@ -9,7 +9,7 @@
           <span class="icon-bar"></span>
         </button>
         <div class="navbar-brand">
-          <a href="index.html"><h1><span>Com</span>pany</h1></a>
+          <a href="index.php"><img id="website-logo" src="images/logo-cantagalli.png" alt="Cantagalli Seguros"/></a>
         </div>
       </div>
 
