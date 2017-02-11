@@ -7724,6 +7724,33 @@ button.close {
   margin-top: -4px;
 }
 
+.companies-container {
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  display: -webkit-flex;
+  /* Safari */
+  -webkit-justify-content: space-around;
+  /* Safari */
+  -webkit-flex-wrap: nowrap;
+  /* Safari */
+  display: -webkit-box;
+  display: flex;
+  height: auto;
+  width: auto;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  background-color: #a8dadc;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.companies-container > img {
+  height: 10vh;
+  min-height: 1vh;
+  width: auto;
+  display: inline-block;
+}
+
 /* ==== Google font ==== */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
 @import url("font-awesome.css");

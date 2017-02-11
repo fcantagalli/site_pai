@@ -15,6 +15,26 @@ Route::get('/', function () {
     return view('pages.welcome');
 });
 
-Route::get('index', function () {
+Route::get('/index', function () {
   return view('pages.index');
+});
+
+
+Route::get('/blog', function() {
+    return view('pages.blog');
+});
+
+
+Route::get('/contact', function() {
+    return view('pages.contact');
+});
+
+
+Route::get('/portifolio', function() {
+    return view('pages.portifolio');
+});
+
+
+Route::get('/services', function() {
+    return view('pages.services');
 });

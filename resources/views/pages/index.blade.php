@@ -34,6 +34,17 @@
             </div><!--/.carousel-inner-->
         </div><!--/.carousel-->
     </section><!--/#main-slider-->
+	<section class="no-margin">
+		<div class="row container companies-container">
+			<img src="images/seguradoras/bradesco.svg" alt="Bradesco seguradora"/>
+			<img src="images/seguradoras/porto-seguro.svg" alt="Porto Seguro"/>
+			<img src="images/seguradoras/seguradora-maritima.png" alt="Maritima Seguros"/>
+			<img src="images/seguradoras/suhai.png" alt="Suhai Seguros"/>
+			<img src="images/seguradoras/sulamerica.png" alt="Sulamerica seguros"/>
+			<img src="images/seguradoras/tokio-marine.svg" alt="Tokio Marine Seguros"/>
+			<img src="images/seguradoras/zurich.svg" alt="Zurich Seguros"/>
+		</div>
+	</section>
 
 	<div class="feature">
 		<div class="container">

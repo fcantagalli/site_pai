@@ -43,3 +43,27 @@
   height: auto;
   margin-top:-4px;
 }
+
+//Index
+.companies-container {
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  display: -webkit-flex; /* Safari */
+  -webkit-justify-content: space-around; /* Safari */
+  -webkit-flex-wrap: nowrap; /* Safari */
+  display: flex;
+  height: auto;
+  width: auto;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  background-color: $brand-success-blue;
+  justify-content: space-around;
+  text-align:center;
+}
+
+.companies-container > img {
+  height: 10vh;
+  min-height: 1vh;
+  width: auto;
+  display: inline-block;
+}
