@@ -1,6 +1,7 @@
 
 // Fonts
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,600);
+@import 'fonts';
 
 // Variables
 @import 'variables';
@@ -56,14 +57,14 @@
   width: auto;
   flex-wrap: nowrap;
   justify-content: space-around;
-  background-color: $brand-success-blue;
+  background-color: $brand-info;
   justify-content: space-around;
   text-align:center;
-}
 
-.companies-container > img {
-  height: 10vh;
-  min-height: 1vh;
-  width: auto;
-  display: inline-block;
+  img {
+    height: 10vh;
+    max-width: 14%;
+    width: auto;
+    object-fit: contain;
+  }
 }

@@ -11,22 +11,22 @@
 	<section id="main-slider" class="no-margin">
         <div class="carousel slide">
             <div class="carousel-inner">
-                <div class="item active" style="background-image: url(images/slider/bg1.jpg)">
+                <div class="item active" style="background-image: url(images/slider/index-main-image.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
                                 <div class="carousel-content">
-                                    <h2 class="animation animated-item-1">Welcome <span>Company</span></h2>
-                                    <p class="animation animated-item-2">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</p>
-                                    <a class="btn-slide animation animated-item-3" href="#">Read More</a>
+                                    <h2 class="animation animated-item-1">Cantagalli Seguros</h2>
+                                    <p class="animation animated-item-2">A garantia do seu patrimônio e a tranquilidade da sua família</p>
+                                    {{-- <a class="btn-slide animation animated-item-3" href="#">Read More</a> --}}
                                 </div>
                             </div>
 
-                            <div class="col-sm-6 hidden-xs animation animated-item-4">
+                            {{-- <div class="col-sm-6 hidden-xs animation animated-item-4">
                                 <div class="slider-img">
                                     <img src="images/slider/img3.png" class="img-responsive">
                                 </div>
-                            </div>
+                            </div> --}}
 
                         </div>
                     </div>
@@ -34,17 +34,15 @@
             </div><!--/.carousel-inner-->
         </div><!--/.carousel-->
     </section><!--/#main-slider-->
-	<section class="no-margin">
-		<div class="row container companies-container">
-			<img src="images/seguradoras/bradesco.svg" alt="Bradesco seguradora"/>
-			<img src="images/seguradoras/porto-seguro.svg" alt="Porto Seguro"/>
-			<img src="images/seguradoras/seguradora-maritima.png" alt="Maritima Seguros"/>
-			<img src="images/seguradoras/suhai.png" alt="Suhai Seguros"/>
-			<img src="images/seguradoras/sulamerica.png" alt="Sulamerica seguros"/>
-			<img src="images/seguradoras/tokio-marine.svg" alt="Tokio Marine Seguros"/>
-			<img src="images/seguradoras/zurich.svg" alt="Zurich Seguros"/>
-		</div>
-	</section>
+	<div class="container-fluid companies-container">
+		<img src="images/seguradoras/bradesco.svg" alt="Bradesco seguradora"/>
+		<img src="images/seguradoras/porto-seguro.svg" alt="Porto Seguro"/>
+		<img src="images/seguradoras/seguradora-maritima.png" alt="Maritima Seguros"/>
+		<img src="images/seguradoras/suhai.png" alt="Suhai Seguros"/>
+		<img src="images/seguradoras/sulamerica.png" alt="Sulamerica seguros"/>
+		<img src="images/seguradoras/tokio-marine.svg" alt="Tokio Marine Seguros"/>
+		<img src="images/seguradoras/zurich.svg" alt="Zurich Seguros"/>
+	</div>
 
 	<div class="feature">
 		<div class="container">
