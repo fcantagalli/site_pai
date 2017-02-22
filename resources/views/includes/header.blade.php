@@ -9,7 +9,7 @@
           <span class="icon-bar"></span>
         </button>
         <div class="navbar-brand">
-          <a href="index.php"><img id="website-logo" src="images/logo-cantagalli.png" alt="Cantagalli Seguros"/></a>
+          <a href="/"><img id="website-logo" class="img-responsive logo" src="images/logo-cantagalli.png" alt="Cantagalli Seguros"/></a>
         </div>
       </div>
 

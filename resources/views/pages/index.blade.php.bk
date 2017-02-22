@@ -44,7 +44,7 @@
 		<img src="images/seguradoras/zurich.svg" alt="Zurich Seguros"/>
 	</div>
 
-	{{-- <div class="feature">
+	<div class="feature">
 		<div class="container">
 			<div class="text-center">
 				<div class="col-md-3">
@@ -77,9 +77,9 @@
 				</div>
 			</div>
 		</div>
-	</div> --}}
+	</div>
 
-	{{-- <div class="about">
+	<div class="about">
 		<div class="container">
 			<div class="col-md-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" >
 				<h2>about us</h2>
@@ -107,40 +107,46 @@
 				Curabitur lacinia pellentesque libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque </p>
 			</div>
 		</div>
-	</div> --}}
+	</div>
 
-	<section class="lates">
+	<div class="lates">
 		<div class="container">
 			<div class="text-center">
-				<h2>Nossos Serviços</h2>
+				<h2>Lates News</h2>
 			</div>
-			<div class="col-md-3 wow fadeInDown center-vertical" data-wow-duration="1000ms" data-wow-delay="300ms">
-				<img src="images/servicos/seg_auto2.jpg" class="img-responsive service-image"/>
-				<h3>Automéveis</h3>
-				<p>O seguro de automóvel visa cobrir os prejuízos causados a seu veículo, que podem ser ocasionados por colisão, incêndio e roubo.</p>
-			</div>
-
-			<div class="col-md-3 wow fadeInDown center-vertical" data-wow-duration="1000ms" data-wow-delay="600ms">
-				<img src="images/servicos/seg_familia.jpg" class="img-responsive service-image"/>
-				<h3>Vida</h3>
-				<p>O seguro de vida tem por finalidade o pagamento aos beneficiários de uma determinada quantia (capital segurado) previamente fixada na apólice nos eventos.</p>
+			<div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+				<img src="images/4.jpg" class="img-responsive"/>
+				<h3>Template built with Twitter Bootstrap</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum erat
+				libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque
+				libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque
+				libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque
+				</p>
 			</div>
 
-			<div class="col-md-3 wow fadeInDown center-vertical" data-wow-duration="1000ms" data-wow-delay="900ms">
-				<img src="images/servicos/seg_residencia.jpg" class="img-responsive service-image"/>
-				<h3>Residencial</h3>
-				<p>O seguro residencial visa proteger o seu patrimônio e garantir o recebimento de indenização em situações inesperadas como roubo, incêndio ou danos elétricos.</p>
+			<div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+				<img src="images/4.jpg" class="img-responsive"/>
+				<h3>Template built with Twitter Bootstrap</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum erat
+				libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque
+				libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque
+				libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque
+				</p>
 			</div>
 
-			<div class="col-md-3 wow fadeInDown center-vertical" data-wow-duration="1000ms" data-wow-delay="900ms">
-				<img src="images/servicos/seg_viagem.jpg" class="img-responsive service-image"/>
-				<h3>Viagem</h3>
-				<p>Esse tipo de seguro visa oferecer maior tranquilidade e comodidade ao segurado em viagens.</p>
+			<div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
+				<img src="images/4.jpg" class="img-responsive"/>
+				<h3>Template built with Twitter Bootstrap</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum erat
+				libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque
+				libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque
+				libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque
+				</p>
 			</div>
 		</div>
-	</section>
+	</div>
 
-	{{-- <section id="partner">
+	<section id="partner">
         <div class="container">
             <div class="center wow fadeInDown">
                 <h2>Our Partners</h2>
@@ -157,19 +163,19 @@
                 </ul>
             </div>
         </div><!--/.container-->
-    </section><!--/#partner--> --}}
+    </section><!--/#partner-->
 
 	<section id="conatcat-info">
         <div class="container">
             <div class="row">
-                <div class="col-sm-10">
+                <div class="col-sm-8">
                     <div class="media contact-info wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="pull-right" style="margin-left:5px">
-                            <button id="calculate-insurance-btn" type="button" class="btn btn-primary">Calcule seu seguro aqui</button>
+                        <div class="pull-left">
+                            <i class="fa fa-phone"></i>
                         </div>
                         <div class="media-body">
-                            <h2>Tenha a cotação do seguro do seu carro agora.</h2>
-                            <p>Ou entre em contato conosco através dos telefone (11) 2533-0299, (11) 98314-7206 ou através do e-mail <a href="mailto:cantagalli@cantagalli.com.br"/>cantagalli@cantagalli.com.br</p>
+                            <h2>Have a question or need a custom quote?</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation +0123 456 70 80</p>
                         </div>
                     </div>
                 </div>

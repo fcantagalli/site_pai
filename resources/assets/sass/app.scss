@@ -40,7 +40,7 @@
 }
 
 #website-logo {
-  width: 135px;
+  width: 250px;
   height: auto;
   margin-top:-4px;
 }
@@ -57,7 +57,7 @@
   width: auto;
   flex-wrap: nowrap;
   justify-content: space-around;
-  background-color: $brand-info;
+  background-color: rgba(#008dd5,0.3);
   justify-content: space-around;
   text-align:center;
 
@@ -67,4 +67,20 @@
     width: auto;
     object-fit: contain;
   }
+}
+
+.center-vertical {
+  vertical-align: middle;
+  align-content: center;
+  text-align: center;
+}
+
+.service-image {
+  margin:auto;
+  display:block;
+}
+
+#calculate-insurance-btn {
+  font-size: large;
+  padding: 10px;
 }
