@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,600);
 @font-face {
   font-family: "Riccione";
-  src: url("fonts/Riccione-Serial-Regular.ttf");
+  src: url("../fonts/Riccione-Serial-Regular.ttf");
 }
 
 /*!
@@ -3809,27 +3809,27 @@ fieldset[disabled] .btn-success.focus {
 
 .btn-info {
   color: #fff;
-  background-color: #0cbbfc;
-  border-color: #03adec;
+  background-color: #c79538;
+  border-color: #b38632;
 }
 
 .btn-info:focus, .btn-info.focus {
   color: #fff;
-  background-color: #039ad2;
-  border-color: #01506e;
+  background-color: #9f772d;
+  border-color: #503c16;
 }
 
 .btn-info:hover {
   color: #fff;
-  background-color: #039ad2;
-  border-color: #0280af;
+  background-color: #9f772d;
+  border-color: #836225;
 }
 
 .btn-info:active, .btn-info.active,
 .open > .btn-info.dropdown-toggle {
   color: #fff;
-  background-color: #039ad2;
-  border-color: #0280af;
+  background-color: #9f772d;
+  border-color: #836225;
 }
 
 .btn-info:active:hover, .btn-info:active:focus, .btn-info:active.focus, .btn-info.active:hover, .btn-info.active:focus, .btn-info.active.focus,
@@ -3837,8 +3837,8 @@ fieldset[disabled] .btn-success.focus {
 .open > .btn-info.dropdown-toggle:focus,
 .open > .btn-info.dropdown-toggle.focus {
   color: #fff;
-  background-color: #0280af;
-  border-color: #01506e;
+  background-color: #836225;
+  border-color: #503c16;
 }
 
 .btn-info:active, .btn-info.active,
@@ -3850,12 +3850,12 @@ fieldset[disabled] .btn-success.focus {
 fieldset[disabled] .btn-info:hover,
 fieldset[disabled] .btn-info:focus,
 fieldset[disabled] .btn-info.focus {
-  background-color: #0cbbfc;
-  border-color: #03adec;
+  background-color: #c79538;
+  border-color: #b38632;
 }
 
 .btn-info .badge {
-  color: #0cbbfc;
+  color: #c79538;
   background-color: #fff;
 }
 
@@ -5589,11 +5589,11 @@ a.label:hover, a.label:focus {
 }
 
 .label-info {
-  background-color: #0cbbfc;
+  background-color: #c79538;
 }
 
 .label-info[href]:hover, .label-info[href]:focus {
-  background-color: #039ad2;
+  background-color: #9f772d;
 }
 
 .label-warning {
@@ -5906,7 +5906,7 @@ a.thumbnail.active {
 }
 
 .progress-bar-info {
-  background-color: #0cbbfc;
+  background-color: #c79538;
 }
 
 .progress-striped .progress-bar-info {
@@ -7744,7 +7744,7 @@ button.close {
   width: auto;
   flex-wrap: nowrap;
   justify-content: space-around;
-  background-color: rgba(0, 141, 213, 0.3);
+  background-color: rgba(210, 210, 210, 0.7);
   justify-content: space-around;
   text-align: center;
 }
@@ -7770,7 +7770,8 @@ button.close {
 
 #calculate-insurance-btn {
   font-size: large;
-  padding: 10px;
+  padding: 20px;
+  background-color: #ff6b6b;
 }
 
 /* ==== Google font ==== */
@@ -7815,7 +7816,7 @@ a:hover {
 
 .btn-primary {
   padding: 8px 20px;
-  background: #1e73be;
+  background: #767676;
   color: #fff;
   border-radius: 4px;
   border: none;
@@ -7890,10 +7891,11 @@ a:hover {
 }
 
 .menu {
-  font-size: 14px;
+  font-size: 15px;
+  letter-spacing: 1.5px;
   float: right;
   text-transform: uppercase;
-  font-weight: 800;
+  font-weight: 900;
   vertical-align: middle;
   padding-top: 10px;
 }
@@ -7920,7 +7922,7 @@ a:hover {
 }
 
 .nav-tabs > li > a:hover {
-  color: #0cbbfc;
+  color: #c79538;
   border-color: #fff #fff #fff;
   border-radius: 0;
   background-color: #fff;
@@ -7932,7 +7934,7 @@ a:hover {
 }
 
 .nav-tabs > li > a.active {
-  color: #0cbbfc;
+  color: #c79538;
   border-radius: 0;
   transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -8064,7 +8066,7 @@ a:hover {
   margin-bottom: 20px;
   text-transform: uppercase;
   font-size: 18px;
-  color: #1e73be;
+  color: #c79538;
 }
 
 .hi-icon-effect i.fa:hover {
@@ -8112,8 +8114,8 @@ a:hover {
   margin-top: 50px;
 }
 
-#conatcat-info {
-  background: #fff url(../images/contact.png) no-repeat 90% 0;
+#contact-info {
+  background: rgba(210, 210, 210, 0.7) no-repeat 90% 0;
   padding: 30px 0;
 }
 
@@ -8138,7 +8140,7 @@ a:hover {
 }
 
 .contact-info a:hover {
-  color: #0cbbfc;
+  color: #c79538;
 }
 
 /* --- about us --- */
@@ -8291,7 +8293,7 @@ a:hover {
 .lates h2 {
   font-size: 20px;
   font-weight: 600;
-  color: #1e73be;
+  color: #c79538;
 }
 
 .lates img {
@@ -8549,7 +8551,7 @@ ul.social-network li a {
 
 a.btn-primary:hover {
   background-color: #ddd;
-  color: #1e73be;
+  color: #767676;
 }
 
 .widget {
@@ -8946,7 +8948,7 @@ a.scrollup {
 a.scrollup:hover {
   opacity: 1;
   background-color: #ddd;
-  color: #1BBD36;
+  color: #1d2333;
 }
 
 /*# sourceMappingURL=app.css.map */

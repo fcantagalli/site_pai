@@ -159,10 +159,10 @@
         </div><!--/.container-->
     </section><!--/#partner--> --}}
 
-	<section id="conatcat-info">
+	<section id="contact-info">
         <div class="container">
             <div class="row">
-                <div class="col-sm-10">
+                <div class="col-sm-14">
                     <div class="media contact-info wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="pull-right" style="margin-left:5px">
                             <button id="calculate-insurance-btn" type="button" class="btn btn-primary">Calcule seu seguro aqui</button>
@@ -175,7 +175,7 @@
                 </div>
             </div>
         </div><!--/.container-->
-    </section><!--/#conatcat-info-->
+    </section><!--/#contact-info-->
 
 	<footer>
 		@include('includes.footer')

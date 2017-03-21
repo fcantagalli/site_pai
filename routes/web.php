@@ -17,24 +17,24 @@ Route::get('/', function () {
 
 Route::get('/index', function () {
   return view('pages.index');
-});
+})->name('index');
 
 
 Route::get('/blog', function() {
     return view('pages.blog');
-});
+})->name('blog');
 
 
-Route::get('/contact', function() {
+Route::get('/contato', function() {
     return view('pages.contact');
-});
+})->name('contact');
 
 
 Route::get('/portifolio', function() {
     return view('pages.portifolio');
-});
+})->name('portifolio');
 
 
-Route::get('/services', function() {
+Route::get('/servicos', function() {
     return view('pages.services');
-});
+})->name('services');

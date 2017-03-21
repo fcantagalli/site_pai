@@ -165,7 +165,7 @@
         </div><!--/.container-->
     </section><!--/#partner-->
 
-	<section id="conatcat-info">
+	<section id="contact-info">
         <div class="container">
             <div class="row">
                 <div class="col-sm-8">
@@ -181,7 +181,7 @@
                 </div>
             </div>
         </div><!--/.container-->
-    </section><!--/#conatcat-info-->
+    </section><!--/#contact-info-->
 
 	<footer>
 		@include('includes.footer')
