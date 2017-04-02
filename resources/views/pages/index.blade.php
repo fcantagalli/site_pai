@@ -35,13 +35,14 @@
         </div><!--/.carousel-->
     </section><!--/#main-slider-->
 	<div class="container-fluid companies-container">
-		<img src="images/seguradoras/bradesco.svg" alt="Bradesco seguradora"/>
 		<img src="images/seguradoras/porto-seguro.svg" alt="Porto Seguro"/>
-		<img src="images/seguradoras/seguradora-maritima.png" alt="Maritima Seguros"/>
+		<img src="images/seguradoras/azul-seguros.jpeg" alt="Azul Seguros"/>
+		<img src="images/seguradoras/itau-seguros.png" alt="Itaú Seguros"/>
+		<img src="images/seguradoras/tokio-marine.png" alt="Tokio Marine"/>
+		<img src="images/seguradoras/sulamerica.png" alt="SulAmérica Seguros"/>
+		<img src="images/seguradoras/bradesco.svg" alt="Bradesco Seguros"/>
+		<img src="images/seguradoras/ituran-seguro.jpg" alt="Ituran Seguros"/>
 		<img src="images/seguradoras/suhai.png" alt="Suhai Seguros"/>
-		<img src="images/seguradoras/sulamerica.png" alt="Sulamerica seguros"/>
-		<img src="images/seguradoras/tokio-marine.svg" alt="Tokio Marine Seguros"/>
-		<img src="images/seguradoras/zurich.svg" alt="Zurich Seguros"/>
 	</div>
 
 	{{-- <div class="feature">
@@ -165,7 +166,9 @@
                 <div class="col-sm-14">
                     <div class="media contact-info wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="pull-right" style="margin-left:5px">
-                            <button id="calculate-insurance-btn" type="button" class="btn btn-primary">Calcule seu seguro aqui</button>
+                            <a id="calculate-insurance-btn" class="btn btn-primary" href="http://www.coteconosco.com.br:63100/Calculo?cor=cantagalli
+
+">Calcule seu seguro aqui</a>
                         </div>
                         <div class="media-body">
                             <h2>Tenha a cotação do seguro do seu carro agora.</h2>

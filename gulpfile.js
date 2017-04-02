@@ -17,25 +17,25 @@ elixir((mix) => {
     mix.sass(
       ['app.scss',
       'style.scss'],
-      'public/css/app.css');
+      'web/css/app.css');
 
-     mix.webpack('app.js');
+     mix.webpack('app.js', 'web/js/app.js');
 
      mix.styles([
          'animate.css',
          'bootstrap.min.css',
          'font-awesome.min.css',
          'prettyPhoto.css',
-     ], 'public/css/index.css');
+     ], 'web/css/index.css');
 
      mix.styles([
          'animate.min.css',
          'bootstrap-theme.min.css',
          'bootstrap.min.css',
          'font-awsome.min.css'
-     ], 'public/css/main.min.css');
+     ], 'web/css/main.min.css');
 
      mix.styles([
          'prettyPhoto.css',
-     ], 'public/css/theme.css');
+     ], 'web/css/theme.css');
 });

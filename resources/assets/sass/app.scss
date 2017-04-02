@@ -83,5 +83,9 @@
 #calculate-insurance-btn {
   font-size: large;
   padding: 20px;
-  background-color: $brand-danger; 
+  background-color: $brand-danger;
 }
+
+#calculate-insurance-btn:hover {
+    color: $brand-primary;
+  }
